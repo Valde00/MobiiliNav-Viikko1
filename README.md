@@ -1,11 +1,17 @@
 Data model:
 
 Task - Class with attributes:
+
 id: int
+
 title: string
+
 description: string
+
 priority: int
+
 doeDate: string
+
 done: boolean
 
 
@@ -21,3 +27,8 @@ filterByDone(tasks, showDone) - filters the list depending on status of showDone
 dateKey(dueDate) - helper function that changes string date to numbers so it can be sorted.
 
 sortByDueDate(tasks, ascending) - sorts tasks by dateKey. Order is reversed if ascending is false.
+
+
+Showcase:
+
+https://www.youtube.com/watch?v=jBWmuzu_au0
